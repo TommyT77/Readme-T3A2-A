@@ -20,7 +20,7 @@ RoondayView is a Web application that aims to make trending dishes more visible 
 ---
 
 
-# Functionality & Features (fix)
+# Functionality & Features
 
  Features:
 
@@ -165,6 +165,7 @@ JWT: a library that generates a token for the purpose of authenticating and auth
 Mongoose:an object document mapping library, part of the server side api,  used to interact with a MonogDB database by defining schemas and performing CRUD operations. 
 
 Nodemon: a tool to monitor changes to the code in a development environment such as Node.js. It restarts the application automatically once it detects changes. 
+
 Dotenv: a library that stores configuration settings and environment variables in a separate file. 
 
 Cors: a server side api middleware that controls the access to the api, by denying or allowing requests, depending on the origin of the request.
