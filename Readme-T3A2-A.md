@@ -238,17 +238,17 @@ As an Admin, I want to be able to remove restaurants if they are no longer in bu
 Note: Navigation bar becomes a sidebar on Mobile screen.
 
 Home page 
-![this is an image](./initialWireframe/Home.png)
+![this is an image](./docs/initialWireframe/Home.png)
 Login page 
-![this is an image](./initialWireframe/Login.png)
+![this is an image](./docs/initialWireframe/Login.png)
 Contact page 
-![this is an image](./initialWireframe/Contact.png)
+![this is an image](./docs/initialWireframe/Contact.png)
 User Page 
-![this is an image](./initialWireframe/User.png)
+![this is an image](./docs/initialWireframe/User.png)
 Restaurant staff page
-![this is an image](./initialWireframe/Restaurant_Staff.png)
+![this is an image](./docs/initialWireframe/Restaurant_Staff.png)
 Administrator page
-![this is an image](./initialWireframe/Admin.png)
+![this is an image](./docs/initialWireframe/Admin.png)
 
 
 ----
@@ -258,17 +258,17 @@ Administrator page
 Note: Navigation bar becomes a sidebar on Mobile screen.
 
 Home page 
-![this is an image](./wireframe/home.png)
+![this is an image](./docs/wireframe/home.png)
 Login page
-![this is an image](./wireframe/login.png)
+![this is an image](./docs/wireframe/login.png)
 Signup page
-![this is an image](./wireframe/signup.png)
+![this is an image](./docs/wireframe/signup.png)
 Contact page
-![this is an image](./wireframe/contact.png)
+![this is an image](./docs/wireframe/contact.png)
 User page
-![this is an image](./wireframe/user.png)
+![this is an image](./docs/wireframe/user.png)
 Restaurant page
-![this is an image](./wireframe/restaurant-staff.png)
+![this is an image](./docs/wireframe/restaurant-staff.png)
 Administrator page
-![this is an image](./wireframe/admin.png)
+![this is an image](./docs/wireframe/admin.png)
 
