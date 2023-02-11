@@ -1,104 +1,274 @@
-Trending food on social media app 
+A website for Trending food  
 
-R1 Website 
-	purpose (problem statement)[David] 2/02/2022
-functionality/features,
-Target audience
-tech stack
-Problem Identified
+
+
+---
+
+# Problem Identified
 Finding food trends and associated restaurants are quite hard to find on social media. Finding the restaurant name, location, what time they are open, do they take bookings, how much does the food cost and what others have said about the restaurant require more research on the User’s part. Furthermore, if for some reason, you can’t get to the restaurant from the post, then how about another restaurant that serves the same food. 
 
 It’s often a multi-step process from finding a food trend to booking the restaurant, and that’s what our app aims to address. 
 
-Purpose 
+---
+
+# Purpose 
 
 RoondayView is a Web application that aims to make trending dishes more visible to users’ specific food interests. Users are able to see trending (ranked) dishes as well as the restaurants that serve the specific dish. This saves time for users, as the restaurant profile is readily available. It removes the extra steps and time that users would normally invest to find a specific dish and restaurant.
 
+---
 
 
+# Functionality & Features (fix)
 
-Functionality & Features (fix)
+ Features:
 
-1. Blog’s of a food dish that is ranked by the number of likes given by users  
+* User’s are able to log in to access other blogs.
 
-2. Booking
+* User’s are able to create, modify and delete their own blog posts.
 
-Reviews: User’s are able to  leave reviews [non-mvp] once they have visited the restaurant and log their time and date of visit of the restaurant (likes are not constrained).
+* User’s are able to add food tags and restaurant name handle to their blog posts.
 
-3. User booking request button
+* User’s are able to like and flag blog posts.
 
-4. Restaurant Profile page: restaurant staff are able to create and edit their profile page. They are also able to respond to reviews.
+* Staff are able to configure their restaurant name, address, menu and menu items (such as ingredients, price and availability), and trading times and dates.
 
-5. Restaurant booking accept button
+* Admin are able to view and delete a flagged blog posts.
 
-Admin 
-Target Audience
-Local and international food community?
-Restaurant Owners and Staff
+* Admin are able to remove a user’s or staff access to the website.
 
-Tech Stack 
-Mern 
+* Admin are able to receive messages from the contact page.
+
+# Functionality
+
+# Home Page:
+
+The home page has a search bar where Users are able to search for food tags or restaurants.
+The home page displays a  list of trending food tags and restaurant name handles which Users can click to go to a page that is populated with blogs or restaurant profiles.
+
+Navigation bar with home/logo button that always returns the user to the home page. Navigation bar becomes a sidebar on Mobile screen.
+
+    * Login button that goes to a login page Users, Administrators and Staff user to login into the website. 
+
+    * Sign Up button that goes to a sign up page that allow Users to create an account.
+
+    * Contact button that goes to the contact page where Users can leave a message for Administrators.
+
+    * Reservation button(non-MVP) that allows Users to make a reservation with a restaurant.
+
+---
+
+# Login Page:
+
+The Login page allows Users, Staff and Administrators to login to access the website. 
+
+    * User’s are able to request to reset password via the link ‘forgot password or username’
+
+The Navigation bar will allow the same functions and features as mentioned above.
+
+---
+
+# Contact Page:
+
+The Contact page allows Users page to write and send a message to the Administrator.
+
+    * User’s can will also be able to see information about the website such as office address, phone number and email address.
+
+The Navigation bar will allow the same functions and features as mentioned above.
+
+---
+
+# User Page:
+
+The Users are able to access their unique user page, once they have logged in. 
+
+    * User’s are able to create new blog posts, populate the blog with texts, images (non-MVP), food tags, and restaurant name handles.
+
+The Navigation bar will allow the same functions and features as mentioned above.
+
+---
+
+# Restaurant - Staff Page:
+
+Staff can access the Restaurant Staff page to access features that will customise their Restaurant profile. 
+
+    * Staff are able to add Menu Item to their Menus, add description, ingredients and price.
+
+    * Staff can search menu item in their menu and update description, price, availability and also delete the menu item.
+
+    * Staff can also add tags to their restaurant profile, update trading hours, add a general message, description of restaurant, and address. 
+
+
+The Navigation bar will allow the same functions and features as mentioned above.
+
+---
+
+# Administrator Page:
+
+Admins can access the Administrator page to view messages, search and delete Users, and search and delete flags. 
+
+    * Admin can delete blogs and associated flags
+    * Admin can delete Users associated with those blogs
+
+The Navigation bar will allow the same functions and features as mentioned above.
+
+---
+
+## Target Audience
+The target audience for this web application project are internet users that would like a centralised web platform to write about food, find food trends, and be able to find quick information about the restaurant (within the app). Restaurants are able to quickly add an address,  menu items, modify current menu items, write about their restaurant, modify trading times, and send a general message. 
+
+---
+
+## Tech Stack 
+
+# Mern 
+
 MongoDB: a document oriented  NoSQL database that stores data used in websites.
-ExpressJS: a node.js framework that defines routes and handle HTTP requests and responses
-React.JS: a Javascript library that is used to build reusable front-end components 
-Nodejs: a Javascript runtime environment, used in conjunction with Express to build server side 
+
+ExpressJS: a node.js framework that defines routes and handle HTTP requests and responses.
+
+React.JS: a Javascript library that is used to build reusable front-end components. 
+
+Nodejs: a Javascript runtime environment, used in conjunction with Express to build server side. 
+
 HTML5: markup language that documents the structure of the elements in a website. 
+
 CSS: a style sheet that customises the elements in  HTML documents.
-Netlify: allows for deployment of front end website on to the internet
-Railway: allows for deployment of the server side on to a cloud server 
-CloudAtlas: allows for deployment of the database on to the cloud
-Git: a source control system allowing for management of repositories 
-Backend Dependencies
-	Node.js
-	NPM
-	Express
-	Config
-Jest
-Jsonwebtoken
-bycrypt(nonMVP)
-mongoose(nonMVP)
-Nodemon?
-Dotenv
 
-Fronted Dependencies
-	ReactJS
+Netlify: allows for deployment of front end websites onto the internet.
 
+Railway: allows for deployment of the server side onto a cloud server. 
 
+CloudAtlas: allows for deployment of the database onto the cloud.
 
+Npm: a default package manager for Node.js that allows the  installation and use of packages, dependencies and libraries.
 
-R4 User stories 
+Git and Github: a source control system allowing for management of repositories. 
+
+---
+
+# Backend Dependencies
+
+Node.js: a runtime environment that runs server-side Javascript code.
+
+Express: an application framework that handles routing, requests and responses as well as middleware.
+
+Express-session: middleware that manages sessions in Express.js by storing user related data in the server. 
+
+Jest: a javascript testing library that used to implement unit and integration testing .
+
+Bcrypt: a library that stores and verifies passwords. 
+
+JWT: a library that generates a token for the purpose of authenticating and authorising users and their server requests.
+
+Mongoose:an object document mapping library, part of the server side api,  used to interact with a MonogDB database by defining schemas and performing CRUD operations. 
+
+Nodemon: a tool to monitor changes to the code in a development environment such as Node.js. It restarts the application automatically once it detects changes. 
+Dotenv: a library that stores configuration settings and environment variables in a separate file. 
+
+Cors: a server side api middleware that controls the access to the api, by denying or allowing requests, depending on the origin of the request.
+
+---
+
+# Fronted Dependencies
+
+MUI: a UI library for react framework that provides the developer a pre-made set of client side components such as buttons, icons and forms amongst others.
+
+Day.js: a date library that allows developers to customise dates and times on both client and server-side.
+
+---
+
+# R4 User stories 
+
+# User 
 
 As a user, I want to be able to view a list of trending food dishes, so that I can find a restaurant that serves them
-As a user, I want to see the booking availability of the restaurant, so that I can book the restaurant  I like
-As a user, I want to see the restaurant opening times, so that I know when to visit
-As a user, I want to able to filter cuisines to find a food dish, so that I can  find a restaurant
-As user, I want to be able to post reviews to help other users make a decision about a restaurant
-As a user, I want to see my reservation, so that I can modify or cancel a booking
-As a Reviewer, I want to be able see the reviews, so that I can delete or modify my review
-As a user, I want to see the restaurant menu, so that I can see if the meal’s are in my budget
-As a user, I want to see the restaurant location/address, so I know where it is located
-As a user, I want to see ranking of restaurants in an suburb, so that I can see a if there is an interesting restaurant near me
 
-NON-MVP User Stories
-As a Reviewer, I want to see my reviews, so that I can see if other reviewers or users have interacted with my reviews
+As a user, I want to see the booking availability of the restaurant, so that I can book the restaurant  I like.
 
+As a user, I want to see the restaurant opening times, so that I know when to visit.
 
+As a user, I want to able to filter cuisines to find a food dish, so that I can  find a restaurant.
 
+As user, I want to be able to post reviews to help other users make a decision about a restaurant.
 
+As a user, I want to see the restaurant menu, so that I can see if the meal’s are in my budget.
 
+As a user, I want to see the restaurant location/address, so I know where it is located.
 
-Admin
+---
 
-As an Admin, I want to see all reviews, so that I can flag or remove reviews and conversations that are not constructive
-As an Admin, I want to see Users, Reviewers and Staff, so that I can remove them if they are being offensive
-As an Admin, I want to be able to remove restaurants if they are no longer in business 
+# Admin
 
+As an Admin, I want to see reviews, so that I can flag or remove blogs.
 
-Staff 
+As an Admin, I want to see Users, Reviewers and Staff, so that I can remove them.
 
-As a staff, I want to see the restaurant opening times, so that I can update opening times 
-As a staff, I want to see the restaurant menu so that I can make changes to the menu 
-As a staff, I want to see the restaurant menu so that I can update the prices of the menu items
-As a staff, I want to see the restaurant reviews so that I can respond reviews
+As an Admin, I want to be able to remove restaurants if they are no longer in business.
+
+---
+
+# Staff 
+
+As a staff, I want to see the restaurant opening times, so that I can update opening times.
+
+As a staff, I want to see the restaurant menu so that I can make changes to the menu.
+
+As a staff, I want to see the restaurant menu so that I can update the prices of the menu items.
+
+As a staff, I want to be able see incoming bookings, so that I can accept or decline bookings.
+
+---
+
+# NON-MVP User Stories
+
+As a user, I want to see my reservation, so that I can modify or cancel a booking (non-MVP).
+
+As a staff, I want to be able see incoming bookings, so that I can accept or decline bookings.
+
 As a staff, I want to see restaurant page, so that I can leave ad-hoc messages, ie. “due to the ongoing drought and flood, menu items that have tomatoes will not be served”.
-As a staff, I want to be able see incoming bookings, so that I can accept or decline bookings
+
+As an Admin, I want to be able to remove restaurants if they are no longer in business.
+
+## Wireframes
+
+---
+
+# Initial Wireframes 
+
+Note: Navigation bar becomes a sidebar on Mobile screen.
+
+Home page 
+![this is an image](./initialWireframe/Home.png)
+Login page 
+![this is an image](./initialWireframe/Login.png)
+Contact page 
+![this is an image](./initialWireframe/Contact.png)
+User Page 
+![this is an image](./initialWireframe/User.png)
+Restaurant staff page
+![this is an image](./initialWireframe/Restaurant_Staff.png)
+Administrator page
+![this is an image](./initialWireframe/Admin.png)
+
+
+----
+
+# Revised Wireframes 
+
+Note: Navigation bar becomes a sidebar on Mobile screen.
+
+Home page 
+![this is an image](./wireframe/home.png)
+Login page
+![this is an image](./wireframe/login.png)
+Signup page
+![this is an image](./wireframe/signup.png)
+Contact page
+![this is an image](./wireframe/contact.png)
+User page
+![this is an image](./wireframe/user.png)
+Restaurant page
+![this is an image](./wireframe/restaurant-staff.png)
+Administrator page
+![this is an image](./wireframe/admin.png)
+
