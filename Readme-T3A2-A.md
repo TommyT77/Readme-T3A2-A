@@ -177,6 +177,12 @@ Day.js: a date library that allows developers to customise dates and times on bo
 
 ---
 
+# Application Archiecture Diagram
+
+![](docs/application-diagram.png)
+
+---
+
 # R4 User stories 
 
 # User 
@@ -272,3 +278,38 @@ Restaurant page
 Administrator page
 ![this is an image](./docs/wireframe/admin.png)
 
+---
+
+# Trello Board 
+
+Trello Board Link: [Click here](https://trello.com/b/MnKH8tLK/roondayview)
+
+---
+
+## 06/02/2023
+![](docs/Trello/screenshot-1.png)
+
+<br>
+
+## 07/02/2023
+![](docs/Trello/screenshot-2.png)
+
+<br>
+
+## 08/02/2023
+![](docs/Trello/screenshot-3.png)
+
+<br>
+
+## 08/02/2023
+![](docs/Trello/screenshot-4.png)
+
+<br>
+
+## 10/02/2023
+![](docs/Trello/screenshot-5.png)
+
+<br>
+
+## 11/02/2023
+![](docs/Trello/screenshot-6.png)
