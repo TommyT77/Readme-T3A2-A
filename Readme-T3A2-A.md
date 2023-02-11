@@ -1,5 +1,7 @@
 A website for Trending food  
 
+# RoondayView
+
 
 
 ---
@@ -174,6 +176,12 @@ Cors: a server side api middleware that controls the access to the api, by denyi
 MUI: a UI library for react framework that provides the developer a pre-made set of client side components such as buttons, icons and forms amongst others.
 
 Day.js: a date library that allows developers to customise dates and times on both client and server-side.
+
+---
+
+# Dataflow Diagram
+
+![](docs/dataflow-diagram.png)
 
 ---
 
