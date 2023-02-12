@@ -1,8 +1,13 @@
 A website for Trending food  
+Github link
+Tommy Troung 
 
+https://github.com/TommyT77/Readme-T3A2-A
+
+David Cha 
+
+https://github.com/david10382/Readme-T3A2-A
 # RoondayView
-
-
 
 ---
 
